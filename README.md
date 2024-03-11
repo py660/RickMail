@@ -11,7 +11,7 @@
 git clone https://github.com/py660/RickMail.git
 cd RickMail
 pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-# Download credentials.json
+#### Download credentials.json
 python3 main.py
 ```
 
