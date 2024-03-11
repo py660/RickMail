@@ -13,8 +13,8 @@ from googleapiclient.errors import HttpError
 import time
 
 #recipient = "gduser1@workspacesamples.dev"
-recipient = "blackberrypy660@gmail.com"
-sender = "rick@irc.cluster.ws"
+recipient = input("Recipient?")
+sender = "me"
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 
